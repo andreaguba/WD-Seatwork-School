@@ -7,6 +7,12 @@
     color: white;
 }
 
+.overlay{
+    border-image: linear-gradient(
+        hsla(240, 100%, 84%, 0.6)
+        hsl(0, 100%, 58%)
+    )   ;
+}
 .background{
     z-index: -99;
 }
