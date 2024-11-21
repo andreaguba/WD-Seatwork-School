@@ -1,0 +1,19 @@
+.intro{
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    top: -70vh;
+    left: 10vh;
+    color: white;
+}
+
+.background{
+    z-index: -99;
+}
+
+.buttonA{
+    background-color: aqua;
+    margin-top: 2vh;
+    padding: 3vh;
+    border-radius: 3vh;
+}
