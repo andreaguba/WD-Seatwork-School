@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork-School</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  All media used in these project are not mine and is used for educational purposes only.
 </div>
+
+[![wakatime](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/65f05552-a400-41b2-84f9-1cb7daa6c096.svg)](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/65f05552-a400-41b2-84f9-1cb7daa6c096)
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=andreaguba/WD-Seatwork-School)
 
 ---
 
