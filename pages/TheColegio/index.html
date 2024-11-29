@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--Tailwind-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@1.5.1/dist/flowbite.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!--Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+
+  </head>
+  
+  <title>Colegio De San Juan De Letran</title>
+</head>
+<body>
+  <header class='header flex border-b py-6 px-6 sm:px-10 bg-white font-[Quicksand] min-h-[70px] tracking-wide relative z-50 font-light'>
+    <div class='flex flex-wrap items-center gap-5 w-full'>
+      <a href="../../index.html"><img src="./assets/img/logo.png" alt="logo" class='w-36' />
+      </a>
+  
+      <div id="collapseMenu"
+        class='max-lg:hidden lg:!block max-lg:w-full max-lg:fixed max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
+        <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"></path>
+          </svg>
+        </button>
+  
+        <ul
+          class='lg:flex lg:ml-14 lg:gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href="../../index.html"><img src="./assets/img/logo.png" alt="logo" class='w-36' />
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='../../index.html'
+              class='lg:hover:text-[#000000] text-gray-500 block font-semibold text-[15px]'>Home</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='../Academics/index.html'
+              class='lg:hover:text-[#000000] text-gray-500 block font-semibold text-[15px]'>Academics</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='../Admissions/index.html'
+              class='lg:hover:text-[#000000] text-gray-500 block font-semibold text-[15px]'>Admissions</a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'><a href='./index.html'
+              class='lg:hover:text-[#000000] block font-semibold text-[15px]'>The Colegio</a>
+          </li>
+        </ul>
+      </div>
+  
+      <button id="toggleOpen" class='lg:hidden ml-auto'>
+        <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+  
+      <div class='flex lg:ml-auto max-lg:w-full'>
+        <div
+          class='flex xl:w-80 max-xl:w-full bg-gray-100 px-6 py-3 rounded outline outline-transparent focus-within:outline-[#007bff] focus-within:bg-transparent'>
+          <input type='text' placeholder='What can I help you with?'
+            class='w-full text-sm bg-transparent rounded outline-none pr-2' />
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
+            class="cursor-pointer fill-gray-400">
+            <path
+              d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <h1 class="flex justify-center text-5xl leading-[4rem] pb-10 text-white font-[Quicksand] mt-32 ">The History of Colegio De San Juan De Letran</h1>
+
+  <section class="flex justify-center items-center text-white">
+    <div class="p-20  pl-2 font-[Quicksand]">
+      <h2 class="flex justify-center items-center text-3xl pb-16 pb-12">
+        Colegio de San Juan de Letran was formed through the union <br>
+        of two Intramuros institutions dedicated to educating orphans: <br>
+        the Colegio de Niños Huérfanos de San Juan de Letran, <br>
+        founded by Don Juan Geronimo Guerrero, and the Colegio<br>
+        de Huérfanos de San Pedro y San Pablo, established by Dominican<br>
+        brother Diego de Santa Maria. Given their shared goals and strong <br>
+        connections, these institutions merged in 1630 to form <br>
+        the Colegio de San Juan de Letran.  <br><br>
+
+        The Colegio's name honors the Basilica of Saint John Lateran <br>
+        in Rome, and its chapel received similar privileges. Saint John <br>
+        the Baptist for whom the Basilica is named, is also the patron <br>
+        saint of Letran. <br>
+        In 1690, Letran was declared as an ecclesiastical college. And in <br>
+        1738, six scholarships were granted by the King of Spain to students <br>
+        from China, Japan, and Vietnam, including St. Vicente Liem de la Paz. <br>
+        A royal decree in 1865 elevated Letran to a First-Class College, <br>
+        and its curriculum was modernized in 1886. Further expansions  <br>
+        occurred with the American influence in 1900. <br>
+        
+        A new building was constructed in 1937, but it was damaged during <br>
+        World War II and temporarily relocated to the Dominican church of San <br>
+         Juan del Monte. The Colegio resumed its operations in Intramuros in 1946.
+        <br><br>
+        Throughout its history, Letran has produced notable alumni such as <br>
+        Manuel Quezon and Sergio Osmena. Despite numerous challenges, the institution <br>
+        has consistently upheld its mission to provide high-quality Christian education, <br>
+        remaining true to its principles of DEUS, PATRIA, LETRAN.</h2>
+      
+    </div>
+
+    <div class="flex justify-center items-center mt-20"><img src="./assets/img/letranCampus.jpg" alt=""></div>
+  </section>
+
+  <div class="flex justify-center items-center mb-20 ">
+  <button class="flex justify-center items-center font-[Quicksand] bg-blue-500 hover:bg-blue-700 text-white font-bold py-10 px-16 rounded-full text-2xl "><a href="../Admissions/index.html">Be A Letranite!</a></button>
+    </div>
+</body>
+</html>
