@@ -14,6 +14,8 @@
   All media used in these project are not mine and is used for educational purposes only.
 </div>
 
+<br>
+
 [![wakatime](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/65f05552-a400-41b2-84f9-1cb7daa6c096.svg)](https://wakatime.com/badge/user/c4997e3e-e4aa-4aac-986b-134d9db1f54b/project/65f05552-a400-41b2-84f9-1cb7daa6c096)
 
 <br />
