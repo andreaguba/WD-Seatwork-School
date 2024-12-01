@@ -62,9 +62,9 @@
 Description of the project in details.
 
 Guiding Question:
-- This project is to create a website about a school.
+- This project is to create a multi-page website about a school with functions such as modal or navigation links.
 - The purpose of this project is to use library to exhibit responsiveness as well as to code faster with a built-in design.
-- The key components of this website
+- The key components of this website is  being a multipage website that offers academic services through this platform.
 - HTML and CSS is used with the help of external libraries to code faster and responsive layouts across platforms.
 
 ### Key Components
