@@ -62,10 +62,10 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- This project is to create a website about a school.
+- The purpose of this project is to use library to exhibit responsiveness as well as to code faster with a built-in design.
+- The key components of this website
+- HTML and CSS is used with the help of external libraries to code faster and responsive layouts across platforms.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -119,4 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Resources Used | The website used to reference the needed assets for the project. | https://www.letran.edu.ph/ |
